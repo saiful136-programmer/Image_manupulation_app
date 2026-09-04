@@ -51,6 +51,7 @@ sudo apt install gcc make pkg-config libgtk-3-dev libx11-dev
 ### 3. Compile the project
 
 ```bash
+cd PROJECT_IMAGE
 make
 ```
 
