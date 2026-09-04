@@ -8,9 +8,9 @@ A graphical Image Manipulation Software built using the C programming language a
 
 ## 👨‍💻 Author
 
-- **Name:** Hasnath Abdullah Akanda
-- **Course/ID:** [Final Lab Project]
-- **GitHub:** [@hasnath1](https://github.com/hasnath1)
+- **Name:** Saiful Islam
+- **Course/ID:** [Final Lab Project 1-1]
+- **GitHub:** [@Saiful](https://github.com/saiful136-programmer)
 
 ---
 
@@ -26,23 +26,43 @@ Ensure your environment meets the following dependencies before building:
 
 ## 🚀 Setup & Installation
 
-Run the following commands in your terminal to clone the repository, install the necessary system dependencies, and set up the isolated library environment.
+# Image Manipulation App
+
+## How to Run
+
+## Run the following commands in your terminal
+
+### 1. Clone the repository
 
 ```bash
-# Clone the repo
-git clone https://github.com/hasnath1/image_manipulation.git
-cd image_manipulation
-
-# Install system dependencies
-sudo apt update
-sudo apt install build-essential libgtk-3-dev libx11-dev pkg-config
-
-# Create isolated library directories
-mkdir ./iup
-mkdir ./im
-
-# Extract precompiled libraries into the isolated folders
-tar -zxvf iup-3.32_Linux515_64_lib.tar.gz -C ./iup
-tar -zxvf im-3.15_Linux515_64_lib.tar.gz -C ./im
-
+git clone https://github.com/saiful136-programmer/Image_manupulation_app.git
+cd Image_manupulation_app
 ```
+
+### 2. Install required dependencies
+
+```bash
+sudo apt update
+sudo apt install gcc make pkg-config libgtk-3-dev libx11-dev
+```
+
+### 3. Compile the project
+
+```bash
+make
+```
+
+### 4. Run the application
+
+```bash
+./app
+```
+
+### 5. Clean the build files
+
+If needed:
+
+```bash
+make clean
+```
+
