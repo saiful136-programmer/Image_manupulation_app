@@ -42,6 +42,8 @@ cd Image_manupulation_app
 ### 2. Install required dependencies
 
 ```bash
+sudo dpkg --configure -a
+sudo apt --fix-broken install
 sudo apt update
 sudo apt install gcc make pkg-config libgtk-3-dev libx11-dev
 ```
